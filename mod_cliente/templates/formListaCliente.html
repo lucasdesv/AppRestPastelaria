@@ -3,9 +3,11 @@
 {% block title %}Cliente{% endblock %}
 
 {% block content %}
-<h1>Cliente</h1>
-<p class="important">Seja bem vindo!</p>
+<h1 style="text-align: center">Cliente</h1>
+<p style="text-align: center" class="fs-5">Seja bem vindo!</p>
+<button style="margin-left: 670px" type="submit"class="btn btn-primary" name="formNovo">Novo Cliente</button>
+
 <ul>
-<li><a href="{{ url_for('index.formListaIndex') }}">Home</a></li>
+<li><a style="text-align: center" class="fs-6" href="{{ url_for('index.formListaIndex') }}">Home</a></li>
 </ul>
 {% endblock %}
