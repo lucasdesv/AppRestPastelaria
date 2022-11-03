@@ -1,4 +1,5 @@
 from flask import Blueprint, render_template
+from funcoes import Funcoes
 bp_cliente = Blueprint('cliente', __name__, url_prefix="/cliente", template_folder='templates')
 
 ''' rotas dos formulários '''
