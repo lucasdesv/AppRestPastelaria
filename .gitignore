@@ -1,14 +1,19 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
-
+_pycache_/
 Include/
 Lib/
 Scripts/
 pyvenv.cfg
 .idea
 .vscode
+static/bootstrap-5.2.2-dist/
+static/fontawesome-free-6.2.0-web/
+node_modules/
+
+# Byte-compiled / optimized / DLL files
+_pycache_/
+*.py[cod]
+*$py.class
+
 # C extensions
 *.so
 
@@ -98,7 +103,7 @@ ipython_config.py
 #Pipfile.lock
 
 # PEP 582; used by e.g. github.com/David-OConnor/pyflow
-__pypackages__/
+_pypackages_/
 
 # Celery stuff
 celerybeat-schedule
