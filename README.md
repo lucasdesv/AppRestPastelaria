@@ -1,1 +1,2 @@
-# AppRestPastelaria
+# appRestPastelaria
+Desenvolvimento Web App Pastelaria
